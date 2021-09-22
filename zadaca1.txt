@@ -1,0 +1,51 @@
+1.
+#include <iostream>;
+using namespace std;
+int main () {
+int a, b;
+int obim, povrsina;
+cout<< "Unesite stranicu a";
+cin>> a;
+cout<< "unesite stranicu b";
+cin>> b;
+povrsina = a*b;
+cout<< "Povrsina pravougaonika je"
+        << povrsina;
+obim = 2*a + 2*b;
+cout<< "obim pravougaonika je";
+         << obim;
+return 0;
+}
+2.
+#include <iostream>;
+using namespace std;
+int main () {
+int a,b;
+cout<<"unesi prvi broj";
+cin>> a;
+cout<<"unesi drugi broj";
+cin>> b;
+if( a>b ) {
+   cout<< a << "," <<b;
+} else {
+cout<< b << "," a;
+}
+return 0;
+}
+3.
+#include <iostream>
+Namespace std;
+Int main () {
+Float prosjek;
+If ( prosjek< 1.5 ) {
+} else if ( prosjek < 2.5 ) {
+Cout<< "2";
+} else if ( prosjek < 3.5 ) {
+Cout<< "3";
+} else if ( prosjek < 4.5 ) {
+Cout<< "4";
+} else {
+Cout<<"5";
+} 
+Return 0;
+}
